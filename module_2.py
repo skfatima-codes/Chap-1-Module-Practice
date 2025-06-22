@@ -1,3 +1,4 @@
 import random
-num=random(1,34)
-print(num)
+for i in range(5):
+    num = random.randint(1, 100)
+    print(num)
